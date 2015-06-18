@@ -170,5 +170,11 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
+  <template name="manifestLauncher"     value="&lt;intent-filter&gt;&#10;      &lt;action android:name=&quot;android.intent.action.MAIN&quot;/&gt;&#10;      &lt;category android:name=&quot;android.intent.category.LAUNCHER&quot; /&gt;&#10;&lt;/intent-filter&gt;"     description="Adds the launcher intent filter to AndroidManifest.xml"     toReformat="false"     toShortenFQNames="true">
+    <context>
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
 </templateSet>
-
